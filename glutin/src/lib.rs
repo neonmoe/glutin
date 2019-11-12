@@ -91,6 +91,7 @@ extern crate objc;
     target_os = "netbsd",
     target_os = "openbsd",
 ))]
+#[cfg(feature = "platform_x11")]
 #[macro_use]
 extern crate log;
 
